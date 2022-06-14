@@ -1,6 +1,19 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
   package="com.reactnativedapp">
 
+
+<queries>
+    <!-- Specific apps you interact with, eg: -->
+    <package android:name="io.metamask" />
+    <package android:name="me.rainbow" />    
+    <!--
+         Specific intents you query for,
+         eg: for a custom share UI
+    -->
+
+  </queries>
+
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
